@@ -227,3 +227,29 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 ```
 </details>
 
+
+Neovim >= 0.9.0 (needs to be built with LuaJIT)
+Git >= 2.19.0 (for partial clones support)
+a Nerd Font(v3.0 or greater) (optional, but needed to display some icons)
+lazygit (optional)
+a C compiler for nvim-treesitter. See here
+for telescope.nvim (optional)
+live grep: ripgrep
+find files: fd
+a terminal that support true color and undercurl:
+kitty (Linux & Macos)
+wezterm (Linux, Macos & Windows)
+alacritty (Linux, Macos & Windows)
+iterm2 (Macos)
+
+Basic utils: git, make, unzip, C Compiler (gcc)
+ripgrep
+Clipboard tool (xclip/xsel/win32yank or other depending on platform)
+A Nerd Font: optional, provides various icons
+if you have it set vim.g.have_nerd_font in init.lua to true
+Language Setup:
+If you want to write Typescript, you need npm
+If you want to write Golang, you will need go
+etc.
+
+
